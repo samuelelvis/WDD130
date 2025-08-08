@@ -41,15 +41,20 @@ nav, p section, article {
     padding: 8px;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 footer {
     display: flex;
     justify-content: center;
     
 
 }
-.socialmedia a {
+.socialmedia {
     text-decoration: none;
-    display: inline-block;
+    float: right;
 }
 
 /*.hero {
