@@ -4,39 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/tables.css">
 </head>
 <body>
     <table>
-        <tr>
-            <th>Department</th>
-            <th>Person</th>
-            <th>Most interest in</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Accounting</td>
-            <td>Chris</td>
-            <td>Html tables</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Dennis</td>
-            <td>Web accessibility</td>
-            <td>45</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Sarah</td>
-            <td>JaveScript frameworks</td>
-            <td>29</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Karen</td>
-            <td>Web performance</td>
-            <td>36</td>
-        </tr>
+        <thead>
+            <tr>
+                <th scope="col">Department</th>
+                <th scope="col">Person</th>
+                <th scope="colgroup">Most interest in</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Accounting</td>
+                <td scope="row">Chris</td>
+                <td>Html tables</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                
+                <td>Dennis</td>
+                <td>Web accessibility</td>
+                <td>45</td>
+            </tr>
+            <tr>
+            
+                <td>Sarah</td>
+                <td>JaveScript frameworks</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Karen</td>
+                <td>Web performance</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td scope="row" colspan="3">Average age</td>
+                <td>33</td>
+            </tr>
+        </tfoot>
+        <caption>Front-end Web Developer Course</caption>
     </table>
 </body>
 </html>

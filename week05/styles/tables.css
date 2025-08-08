@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+ caption{
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+ }
