@@ -31,11 +31,14 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h3, h2 {
+h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+h2 {
+    color: white;
+}
 nav, p section, article {
     margin: 16px;
     padding: 8px;
