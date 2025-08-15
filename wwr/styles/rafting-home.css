@@ -1,0 +1,211 @@
+:root {
+    --primary-color: #8ecae6;
+    --secondary-color: #219ebc;
+    --accent1-color: #023047;
+    --accent2-color:#ffb703;
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+header {
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.socialmedia {
+    text-decoration: none;
+    float: right;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h2, h3 {
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+
+}
+
+main img {
+    float: right;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header 
+.hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  font-weight: bold;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+.btn {
+  background: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #e55c00;
+}
+
+
+.about {
+  padding: 60px 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.trips {
+  padding: 60px 20px;
+  text-align: center;
+}
+.trips h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.trip-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.trip-card {
+  background: #f7f7f7;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.trip-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.trip-card h3 {
+  margin: 15px 0 10px;
+  color: #005b96;
+}
+.trip-card p {
+  padding: 0 15px 20px;
+}
+
+
+footer {
+  background: #005b96;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+*/
+
+.trip-images {
+    display: flex;
+    justify-content: center;
+}
